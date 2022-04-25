@@ -100,6 +100,10 @@ const iconsAndImages = function (datas) {
     todayIcon.src = "thunder.svg";
     background.style.backgroundImage = "url(thunderBackground.jpg)";
   }
+  if (icon == "Snow") {
+    todayIcon.src = "snowy.svg";
+    background.style.backgroundImage = "url(snowBackground.jpg)";
+  }
 };
 
 const dailyWeather = function (data, day, night, icon) {
@@ -123,6 +127,9 @@ const dailyWeather = function (data, day, night, icon) {
   }
   if (weather == "Thunderstorm") {
     icon.src = "thunder.svg";
+  }
+  if (weather == "Snow") {
+    icon.src = "snowy.svg";
   }
 };
 
