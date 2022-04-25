@@ -16,7 +16,7 @@ query the API through the input field provided with the city in lowercase and if
 #### Live link
 
 ```
-
+http://ok-weather-app-js.vercel.app/
 ```
 
 
