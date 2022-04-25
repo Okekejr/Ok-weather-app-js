@@ -1,0 +1,109 @@
+/* styles go here */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+
+#cover {
+  background-image: url(default.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.inner {
+  padding: 3.5rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  width: 16.3rem;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.input-form {
+  color: #fff;
+  padding: 10px;
+  border: none;
+  background-color: #101039;
+  border-radius: 15px;
+  min-width: 15rem;
+  text-align: center;
+}
+
+input::placeholder {
+  color: #fff;
+  text-align: center;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 1.2rem;
+}
+
+.width {
+  width: 20rem;
+  margin: auto;
+}
+
+.temp {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.timeZone {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.flex-daily {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50rem;
+  margin: auto;
+}
+
+.mat {
+  margin: 15px 0px;
+}
+
+.ma {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.day-container {
+  background-color: #1E1F43;
+  border: 1px solid #bdc3c7;
+  border-radius: 50%;
+  width: 5rem;
+  height: 10rem;
+  text-align: center;
+  padding: 5px;
+  transform: scale(0.75);
+  transition: transform 0.9s, opacity 0.5s;
+}
+
+.day-container:hover {
+  transform: scale(1);
+  background-color: #fff;
+  color: #101039;
+}
