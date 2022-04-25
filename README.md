@@ -5,7 +5,7 @@ Ok-weather-app uses the https://openweathermap.org/api/one-call-api#data API for
 
 ## How to use?
 
-query the API through the input field provided with the city in lowercase and if it has a hyphen replace with an underscore, and hit enter. VIOLA!!
+query the API through the input field provided with ONLY the city name and if it has a hyphen replace it with an underscore, and hit enter. VIOLA!!
 
 
 ## Demo
