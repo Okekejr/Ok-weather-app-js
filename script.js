@@ -136,7 +136,6 @@ const dailyWeather = function (data, day, night, icon) {
 const whatDay = function (data) {
   // extracting date stamps in UnixTime stamp from API
   const dt = data.dt;
-  console.log(dt);
 
   // generate todays date
   const now = new Date();
@@ -151,7 +150,6 @@ const whatDay = function (data) {
 
   // calculate days ahead
   const calcDay = Math.round(Math.abs(+nowdt - +dt) / (60 * 60 * 24));
-  console.log(calcDay);
 
   if (calcDay === 1) {
     day1.innerHTML = "Tomorrow";

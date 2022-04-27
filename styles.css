@@ -91,7 +91,7 @@ input:focus::placeholder {
 }
 
 .day-container {
-  background-color: #1E1F43;
+  background-color: #1e1f43;
   border: 1px solid #bdc3c7;
   border-radius: 50%;
   width: 5rem;
@@ -106,4 +106,21 @@ input:focus::placeholder {
   transform: scale(1);
   background-color: #fff;
   color: #101039;
+}
+
+@media (max-width: 415px) and (min-width: 375px) {
+  .day-container {
+    width: 3.3rem;
+    padding: 0px;
+  }
+  .flex-daily {
+    width: 20rem;
+  }
+  .width {
+    width: 17rem;
+  }
+  .day1 {
+    font-size: 13px;
+    width: 0.5rem;
+  }
 }
