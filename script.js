@@ -67,7 +67,7 @@ form.addEventListener("submit", function (e) {
 
     //   requesting data from API using promises
     const weatherData = await fetch(
-      `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&exclude=hourly,minutelyweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&units=metric&appid=80a892b16dd01568415e7239894b5f58`
+      `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&exclude=hourly,minutelyweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&units=metric&appid=e4e8a38e9749c6c32501f0c3ed976e93`
     );
     const data = weatherData.json();
     const printData = await data;
